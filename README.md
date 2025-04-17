@@ -66,13 +66,13 @@ Copy the cloned files into your server's root directory (e.g., `htdocs` for XAMP
 - Import the SQL file (`e_learning.sql`) provided in the database folder to set up tables.
 
 4. **Configure Database Connection**:
-- Open `config.php`.
-- Update the database credentials:
+- Create `.env`.
+- Add your database credentials:
   ```
-  $db_host = 'localhost';
-  $db_user = 'root';
-  $db_pass = '';
-  $db_name = 'e_learning';
+  $DB_HOST = 'localhost';
+  $DB_USERNAME = 'your username';
+  $DB_PASSWORD = 'your password';
+  $DB_DATABASE = 'e_learning';
   ```
 
 5. **Run the Project**:
